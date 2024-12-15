@@ -205,6 +205,84 @@ Features
 
 
 
+FOUNDER
+
+
+
+*/
+
+#founder{
+    margin-top: 20rem;
+}
+
+.founder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.founder-image{
+    height: 400px;
+    height: 400px;
+    margin-right: -7rem;
+    margin-top: -20rem;
+}
+
+.access-card{
+    background-color: var(--clr-purple);
+    color: var(--clr-white);
+    width: 730px;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.access-card-content{
+    padding: 0 4rem;
+}
+
+.access-card-content h2{
+    font-size: 56px;
+    padding-bottom: 2rem;
+}
+
+.access-card-content p{
+    margin-bottom: 2rem;
+}
+
+.access-button{
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--clr-green);
+    color: var(--clr-purple);
+    border: none;
+    height: 60px;
+    width: 180px;
+    transition: all 0.2s ease-in;
+}
+
+.access-button:hover{
+    color: var(--clr-green);
+    background-color: var(--clr-purple);
+    border: solid 1px var(--clr-green);
+}
+
+.founder-circles{
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    height: 50%;
+}
+
+/*
+
+
+
 Media Queries
 
 
@@ -277,9 +355,22 @@ Media Queries
         margin-top: 3rem;
         margin-right: 3rem;
     }
+
+    .access-card{
+        width: 630px;
+        height: 480px;
+    }
+
+    .founder-image{
+        height: 400px;
+        height: 400px;
+        margin-right: -5rem;
+        margin-top: -25rem;
+    }
 }
 
 @media screen and (max-width: 914px){
+
     .hero-image{
         width: 500px;
         top: 94%;
@@ -293,6 +384,15 @@ Media Queries
     header{
         background-position: -22vw 10vh, 91vw 50vh;
     }
+
+    .founder-circles{
+        position: absolute;
+        top: 76%;
+        left: 58%;
+        height: 38%;
+    }
+
+
 
 }
 
@@ -317,6 +417,44 @@ Media Queries
     header{
         background-position: -32vw 10vh, 92vw 22vh;
     }
+
+    .founder{
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+
+    .founder-image{
+        width: 75%;
+        height: auto;
+        margin-right: 0;
+        margin-top: -12rem;
+    }
+
+    .access-card{
+        width: 100%;
+        height: 400px;
+        display: block;
+        text-align: center;
+        margin-top: -6rem;
+    }
+
+    .access-card-content{
+        padding: 0rem 2rem;
+    }
+
+    .access-card-content h2{
+        padding-top: 2rem;
+    }
+
+
+    .founder-circles{
+        display: none;
+    }
+
+    .access-button{
+        margin: 0 auto;
+    }
+
 }
 
 @media screen and (max-width: 767px){
@@ -365,6 +503,12 @@ Media Queries
     .hero-text{
         width: 60%;
     }
+
+    .access-card{
+        height: 450px;
+    }
+
+
 }
 
 @media screen and (max-width: 430px){
@@ -385,6 +529,11 @@ Media Queries
         height: 60px;
         width: 160px;
     }
+
+    .access-card{
+        height: 500px;
+    }
+
 }
 
 @media screen and (max-width: 414px){
