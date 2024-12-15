@@ -283,6 +283,33 @@ FOUNDER
 
 
 
+Footer
+
+
+
+*/
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+.footer-logo{
+    margin-bottom: 3rem;
+}
+
+.twitter-icon{
+    padding: 0 1rem;
+}
+
+/*
+
+
+
 Media Queries
 
 
